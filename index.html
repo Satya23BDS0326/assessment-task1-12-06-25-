@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Movie List</title>
+  <style>
+    body {
+      background-color: #1e1e1e;
+      color: white;
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 20px;
+    }
+    
+    h1 {
+      text-align: center;
+      color: #00ff99;
+      font-size: 36px;
+      margin-bottom: 20px;
+    }
+
+    .filters {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .filters button {
+      margin: 5px;
+      padding: 10px 16px;
+      background-color: transparent;
+      color: #00ff99;
+      border: 1px solid #00ff99;
+      border-radius: 20px;
+      cursor: pointer;
+    }
+
+    .search-bar {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .search-bar input {
+      padding: 10px;
+      border-radius: 20px;
+      border: none;
+      width: 250px;
+    }
+
+    .movie-grid {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    .movie-card {
+      background-color: #2e2e2e;
+      border-radius: 10px;
+      width: 180px;
+      text-align: center;
+      padding: 10px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+    }
+
+    .movie-card img {
+      width: 100%;
+      border-radius: 10px;
+    }
+
+    .movie-card h3 {
+      font-size: 16px;
+      margin: 10px 0 5px;
+    }
+
+    .movie-card p {
+      font-size: 12px;
+      color: #ccc;
+      margin-bottom: 5px;
+    }
+
+    .heart {
+      color: #00ff99;
+      font-size: 16px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>MOVIE LIST</h1>
+
+  <div class="filters">
+    <button>Marvel Movie</button>
+    <button>Funny Movie</button>
+    <button>Animation Movie</button>
+    <button>Web Series Movie</button>
+  </div>
+
+  <div class="search-bar">
+    <input type="text" placeholder="Search here..." />
+  </div>
+
+  <div class="movie-grid">
+    <div class="movie-card">
+      <img src="C:\Users\satya\OneDrive\Pictures\m3.jpg" alt="It's Kind of a Funny Story" />
+      <h3>It's Kind of a Funny Story</h3>
+      <p>Type: movie</p>
+      <div class="heart">♥</div>
+    </div>
+
+    <div class="movie-card">
+      <img src="C:\Users\satya\OneDrive\Pictures\m6.jpg" alt="Funny People" />
+      <h3>Funny People</h3>
+      <p>Type: movie</p>
+      <div class="heart">♥</div>
+    </div>
+
+    <div class="movie-card">
+      <img src="C:\Users\satya\OneDrive\Pictures\m1.jpg" alt="Funny Games" />
+      <h3>Funny Games</h3>
+      <p>Type: movie</p>
+      <div class="heart">♥</div>
+    </div>
+  </div>
+
+</body>
+</html>
